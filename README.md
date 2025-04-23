@@ -1,7 +1,7 @@
 # Covid-19-RNA-Classification
 
 ## Overview
-This project involves the classification of RNA sequences from eight SARS-CoV-2 variants and subvariants. The study employs various machine learning models to achieve accurate classification of these viral sequences.
+This project involves the classification of RNA sequences from eight SARS-CoV-2 variants and subvariants. The study employs a deep learning model to achieve accurate classification of these viral sequences.
 
 ## Datasets
 The datasets for each of the eight SARS-CoV-2 variants and subvariants have been compiled into a single RAR file for convenience. This file, originally consisting of eight individual FASTA files, is available in the **Datasets** folder.
@@ -17,14 +17,10 @@ The datasets for each of the eight SARS-CoV-2 variants and subvariants have been
 - BA.4.6 (Omicron subvariant)
 
 ## Code Files
-The code for this research is organized into six key files, located in the **Codes** folder. These files include:
+The code for this research is organized into two key files, located in the **Codes** folder. These files include:
 
-- **Preprocessing_Data**: Scripts for data preprocessing and preparation.
-- **PCA**: Principal Component Analysis for dimensionality reduction.
-- **SVM_Model**: Support Vector Machine model implementation.
-- **KNN_Model**: K-Nearest Neighbors model implementation.
-- **Random_Forest_Model**: Random Forest model implementation.
-- **CNN_Model**: Convolutional Neural Network model implementation.
+- **Preprocessing.ipynb**: Scripts for data preprocessing and preparation.
+- **CNN_BiLSTM_Model.ipynb**: CNN-BiLSTM model implementation.
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. You are free to:
